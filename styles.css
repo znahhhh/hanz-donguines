@@ -5,8 +5,16 @@ body {
     background: hotpink;
     padding: 3rem;
     font-family: 'Alata', sans-serif;
-    
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.wrapper {
+    text-align: center;
+}
+  
 
 
   .first-section {
@@ -23,6 +31,5 @@ body {
     width: 15em;
     border: 1px solid red;
     padding: 1em;
-    
   }
   

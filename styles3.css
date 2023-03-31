@@ -1,36 +1,125 @@
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-
-.resume-section {
-  width: 100%;
-  max-width: 600px;
-  padding: 20px;
+/* Reset styles */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-.section-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #e6ccfa;
 }
 
+/* Heading styles */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  line-height: 1.2;
+}
 
-.section-content {
-  font-size: 18px;
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+/* Paragraph styles */
+p {
+  margin: 0 0 1.5rem;
   line-height: 1.5;
 }
 
+/* Link styles */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
 
-@media only screen and (max-width: 600px) {
-  .resume-section {
-    width: 100%;
-  }
+a:hover {
+  color: #0077b6;
+}
+
+/* Accent color */
+.accent {
+  color: #0077b6;
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.25rem;
+}
+/* Summary styles */
+.summary {
+  margin: 2rem 0;
+}
+
+.summary h3 {
+  margin-bottom: 0.5rem;
+}
+
+.summary p {
+  font-style: italic;
+}
+
+
+/* Education styles */
+.education {
+  margin: 2rem 0;
+}
+
+.education h3 {
+  margin-bottom: 0.5rem;
+}
+
+.education p {
+  font-style: italic;
+}
+
+/* Experience styles */
+.experience {
+  margin: 2rem 0;
+}
+
+.experience h3 {
+  margin-bottom: 0.5rem;
+}
+
+.experience p {
+  font-style: italic;
 }
